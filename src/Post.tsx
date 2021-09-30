@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 const Post: FC<IPost> = (props: IPost) => {
 
-    let {body, id, title} = props;
+    let {body, id, title, userId} = props;
 
     let onClick = (e: MouseEvent<HTMLButtonElement>): void => {
         console.log(e.pageX);
